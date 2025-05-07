@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Indian Broadcas Cast</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>IBC News Feed</h1>
+  <div class="form-container">
+    <input type="text" id="title" placeholder="Title of the Article">
+    <textarea id="description" placeholder="Description of the Article"></textarea>
+    <input type="text" id="imageURL" placeholder="Image URL">
+    <button onclick="addArticle()">Add Article</button>
+  </div>
+
+  <div id="newsFeed" class="news-feed"></div>
+
+  <div class="pagination" id="pagination"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
